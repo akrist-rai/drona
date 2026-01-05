@@ -1,0 +1,13 @@
+# CPU-only requirements for inference API
+# Use this on your laptop or Render.com free tier
+
+torch>=2.0.0
+torch-geometric>=2.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+flask>=2.3.0
+tqdm>=4.65.0
+
+# Note: mamba-ssm is NOT required for CPU inference
+# We use mamba_simple.py (pure PyTorch) instead
+
