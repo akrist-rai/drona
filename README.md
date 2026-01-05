@@ -8,11 +8,6 @@
 - **Mamba SSM**: Efficient sequence modeling for route prediction
 - **Vehicle Embedding**: Multi-agent learning with vehicle-specific context
 
-## Free Stack ($0 Budget)
-
-1. **Training**: Kaggle (Free T4 GPU) - Use `mamba-ssm` (CUDA)
-2. **Storage**: Kaggle Datasets (Upload `.pt` files)
-3. **Inference**: Your Laptop or Render.com (Free Tier) - Use `mamba_simple` (CPU)
 
 ## Quick Start
 
