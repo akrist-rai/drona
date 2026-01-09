@@ -1,4 +1,4 @@
-Yes, exactly! You have perfectly nailed the hierarchy.
+
 
 1. **Batch** (The Container)  Holds multiple simulations.
 2. **Time** (The Sequence)  Holds the history steps.
