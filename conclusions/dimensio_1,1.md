@@ -89,7 +89,3 @@ In `NewtonGraphMamba`, the layers are typically arranged as:
 1. **Encoder:** Graph Encoder (GAT/GCN) to process spatial features.
 2. **Middle:** `nn.Linear` to project spatial embeddings to Mamba dimension.
 3. **Decoder:** Mamba Blocks to process the temporal sequence.
-
----
-
-**Would you like me to help you write the `forward()` function for this specific pipeline now that the concept is clear?**
