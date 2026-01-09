@@ -43,8 +43,8 @@ The model uses a "Divide and Conquer" strategy. We cannot feed raw 4D data into 
 Code snippet
 
 graph LR
-   ##  A["Input Tensor: 4D"] --> B["Spatial Specialist (GAT)"]
-   ## B --> C["Dimension Flattening"]
+   ##A["Input Tensor: 4D"] --> B["Spatial Specialist (GAT)"]
+   ##B --> C["Dimension Flattening"]
    ##C --> D["Temporal Specialist (Mamba)"]
    ##D --> E["Prediction"]
 
