@@ -32,9 +32,9 @@ In the ST-Mamba implementation, distinct tensor operations are used to manage GP
 
 | Operation | Action in RAM | Contiguous Requirement | Complexity |
 | --- | --- | --- | --- |
-| **`permute()`** | Change Strides (Metadata) | No |  |
-| **`view()`** | Change Shape (Metadata) | **Yes** |  |
-| **`reshape()`** | Copy Data (if needed) | No |  (if copy needed) |
+| **`permute()`** | Change Strides (Metadata) | No | o(1) |
+| **`view()`** | Change Shape (Metadata) | **Yes** | o(1) |
+| **`reshape()`** | Copy Data (if needed) | No | o(n) (if copy needed) |
 
 ---
 
